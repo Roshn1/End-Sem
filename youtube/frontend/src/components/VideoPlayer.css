@@ -1,0 +1,97 @@
+button {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  button:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+    box-shadow: none;
+  }
+  
+  button.like {
+    background-color: #3b82f6; 
+    color: white;
+  }
+  
+  button.like:hover {
+    background-color: #2563eb; 
+  }
+  
+  button.like:active {
+    background-color: #1d4ed8; 
+  }
+  
+  
+  button.dislike {
+    background-color: #ef4444; 
+    color: white;
+  }
+  
+  button.dislike:hover {
+    background-color: #dc2626; 
+  }
+  
+  button.dislike:active {
+    background-color: #b91c1c; 
+  }
+  
+  
+  button.subscribe {
+    background-color: #10b981;
+    color: white;
+  }
+  
+  button.subscribe:hover {
+    background-color: #059669; 
+  }
+  
+  button.subscribe:active {
+    background-color: #047857; 
+  }
+  
+  button.share,
+  button.download {
+    background-color: #fbbf24;
+    color: white;
+  }
+  
+  button.share:hover,
+  button.download:hover {
+    background-color: #f59e0b; 
+  }
+  
+  button.share:active,
+  button.download:active {
+    background-color: #d97706; 
+  }
+  
+  button:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+  
+  button i {
+    margin-right: 8px;
+  }
+  
